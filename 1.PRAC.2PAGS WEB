@@ -31,3 +31,87 @@ estilizada con CSS.</p>
 </div>
 </body>
 </html>
+
+
+
+//2 CODIGO//
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Mi Segunda Página Web</title>
+<style>
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+   color: #007BFF;
+}
+p {
+   margin-bottom: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Mi Segunda Página Web</h1>
+<p>Explora y aprende sobre desarrollo web con este
+ejemplo básico.</p>
+<p>;Espero que disfrutes creando tus propias páginas!
+</p>
+</div>
+</body>
+</html>
+
+
+
+
+//3 CODIGO//
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Web</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+text-align: center;
+}
+h1 {
+color: #3498db;
+}
+p {
+color: #2c3e50;
+}
+</style>
+</head>
+<body>
+<h1>Bienvenido a Mi Página Web</h1>
+<p>Esta es una página de ejemplo creada con HTML Y CSS.</p>
+</body>
+</html>
