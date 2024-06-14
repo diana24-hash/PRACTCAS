@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diseño Responsivo Mostly Fluid</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>DISEÑO RESPONSIVO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>¿QUE ES?</h2>
+                <p>El diseño responsive es un formato de programación que permite ajustar un sitio web automáticamente al tamaño y disposición de los dispositivos de sus usuarios. Los sitios web responsive cambian para ofrecer la mejor experiencia a los visitantes desde sus teléfonos inteligentes, tabletas o computadoras de escritorio..</p>
+            </section>
+            <section>
+                
+                <h3>Diferencias</h3>
+                    
+                    <P>entre diseño responsive y diseño adaptativo
+                    Es probable que te preguntes si este formato de creación de sitios web es lo mismo que el diseño adaptativo. Si bien existen puntos en común entre ellos, es importante aclarar que no son lo mismo.
+                    
+                    Los diseños responsive son el producto de un trabajo de programación web que da instrucciones a los navegadores para ajustar el contenido de un sitio de acuerdo con las medidas y proporciones específicas del dispositivo de navegación del visitante. Esto significa que el diseño responsive adecúa las páginas web de manera particular y crea una experiencia única para el usuario, en relación con la pantalla, la configuración de tamaño de letra y la posición de cámaras en el dispositivo.
+                    
+                    Por su parte, el diseño adaptativo es menos flexible, debido a que solo puede mostrar los contenidos de acuerdo con formatos, proporciones y disposición predefinidos. De modo que su programación es mucho más simple y puede generar un efecto negativo entre los usuarios de un sitio web porque tendrán que hacer zoom a la página o cambiarse a un dispositivo de escritorio para tener una experiencia de navegación adecuada.
+                    
+                   <h3> Características del diseño responsive</h3>
+                    <p>La principal característica del diseño responsive es su flexibilidad. No obstante, existen otras propiedades importantes a considerar.
+                    
+                    Prefieren los formatos verticales
+                    Los dispositivos móviles fueron los primeros medios visuales que no utilizaron un formato horizontal para mostrar imágenes, tal como lo hacían la televisión y los ordenadores de escritorio.
+                    
+                    Por tal razón, un diseño responsive debe adaptarse o, incluso, preferir, en ciertos casos, el formato vertical. Para diseñar eficientemente tu sitio en ambos formatos, puedes utilizar plantillas web que respeten las características de cada uno y que te ayuden a que tu sitio se adecúe cuando el usuario gire el dispositivo.
+                     .</p>
+                     <img src="data:image/jpeg;base64,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" alt="">
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Mi Página Web</p>
+        </footer>
+    </body>
+</html>
+
+
+//2 CODG//
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0%;
+    background-color: #e7c2e2;
+
+}
+header {
+    background-color: #ee7afd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+    nav ul li a {
+        color:#fff;
+        text-decoration: none;
+    }
+    main {
+        padding: 20px;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    @media screen and (max-width: 800px){
+        header {
+            padding: 10px;
+
+        }
+        nav ul li {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+    }
