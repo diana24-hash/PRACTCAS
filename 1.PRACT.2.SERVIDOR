@@ -1,0 +1,241 @@
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MI SEGUNDA PAGINA WEB </title>
+        <style>
+            body {
+                front-family:arial, sans-serif;
+                margin: 20px;
+                background:  #96eca8;
+            }
+            header {
+                background-color: #1b4764;
+                color: #8d1616;
+                padding: 10px;
+                text-align: center;
+                
+            }
+            nav {
+                background-color: #9c9696;
+                padding: 10px;
+            }
+            section{
+                margin-top: 20px;
+
+            }
+            footer {
+                background-color: #f06767;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+
+
+            }
+            h1{
+                color: #020202;
+            }
+            a{
+                color: #000000;
+            }
+            </style>
+            </head>
+            <body>
+
+                <header>
+                    <h1>COREA DEL SUR</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="inicio">Inicio</a></li>
+                        <li><a href="acerca">Acerca Del Pais</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <section id="inicio">
+                    <h2>Bienvenido A Mi Sitio Web</h2>
+                    <p>En este sitio econtrarás información sobre algunas culturas de corea del sur.</p>
+                </section>
+                <section id="acerca">
+                    <h2>Acerca de nosotros</h2>
+                    <p>Somos un sitio web dedicado a proporcionar información relevante y útil.</p>
+                </section>
+                <section id="contacto">
+                    <h2>contacto</h2>
+                    <p>Tienes preguntas ¡Contactanos!</p>
+                    <adress>
+                        Email: <a href="todo/sobrecorea.com">info@misitioweb.com</a>
+                    </adress>
+                </section>
+                
+            </footer>
+            <p>&copy; 2024 mi sitio web. todos los derechos reservados .</p>
+            </footer>
+
+        </body>
+        </html><html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MI SEGUNDA PAGINA WEB </title>
+        <style>
+            body {
+                front-family:arial, sans-serif;
+                margin: 20px;
+                background:  #96eca8;
+            }
+            header {
+                background-color: #1b4764;
+                color: #8d1616;
+                padding: 10px;
+                text-align: center;
+                
+            }
+            nav {
+                background-color: #9c9696;
+                padding: 10px;
+            }
+            section{
+                margin-top: 20px;
+
+            }
+            footer {
+                background-color: #f06767;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+
+
+            }
+            h1{
+                color: #020202;
+            }
+            a{
+                color: #000000;
+            }
+            </style>
+            </head>
+            <body>
+
+                <header>
+                    <h1>COREA DEL SUR</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="inicio">Inicio</a></li>
+                        <li><a href="acerca">Acerca Del Pais</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <section id="inicio">
+                    <h2>Bienvenido A Mi Sitio Web</h2>
+                    <p>En este sitio econtrarás información sobre algunas culturas de corea del sur.</p>
+                </section>
+                <section id="acerca">
+                    <h2>Acerca de nosotros</h2>
+                    <p>Somos un sitio web dedicado a proporcionar información relevante y útil.</p>
+                </section>
+                <section id="contacto">
+                    <h2>contacto</h2>
+                    <p>Tienes preguntas ¡Contactanos!</p>
+                    <adress>
+                        Email: <a href="todo/sobrecorea.com">info@misitioweb.com</a>
+                    </adress>
+                </section>
+                
+            </footer>
+            <p>&copy; 2024 mi sitio web. todos los derechos reservados .</p>
+            </footer>
+
+        </body>
+        </html>
+
+
+// 2 CDOG//
+
+
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MI SEGUNDA PAGINA WEB </title>
+        <style>
+            body {
+                front-family:arial, sans-serif;
+                margin: 20px;
+                background:  #96eca8;
+            }
+            header {
+                background-color: #1b4764;
+                color: #8d1616;
+                padding: 10px;
+                text-align: center;
+                
+            }
+            nav {
+                background-color: #9c9696;
+                padding: 10px;
+            }
+            section{
+                margin-top: 20px;
+
+            }
+            footer {
+                background-color: #f06767;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+
+
+            }
+            h1{
+                color: #020202;
+            }
+            a{
+                color: #000000;
+            }
+            </style>
+            </head>
+            <body>
+
+                <header>
+                    <h1>COREA DEL SUR</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="inicio">Inicio</a></li>
+                        <li><a href="acerca">Acerca Del Pais</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <section id="inicio">
+                    <h2>Bienvenido A Mi Sitio Web</h2>
+                    <p>En este sitio econtrarás información sobre algunas culturas de corea del sur.</p>
+                </section>
+                <section id="acerca">
+                    <h2>Acerca de nosotros</h2>
+                    <p>Somos un sitio web dedicado a proporcionar información relevante y útil.</p>
+                </section>
+                <section id="contacto">
+                    <h2>contacto</h2>
+                    <p>Tienes preguntas ¡Contactanos!</p>
+                    <adress>
+                        Email: <a href="todo/sobrecorea.com">info@misitioweb.com</a>
+                    </adress>
+                </section>
+                
+            </footer>
+            <p>&copy; 2024 mi sitio web. todos los derechos reservados .</p>
+            </footer>
+
+        </body>
+        </html>
