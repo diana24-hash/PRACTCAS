@@ -1,0 +1,88 @@
+[12:16 p.m., 12/6/2024] Diana: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Example</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <p id="greeting"></p>
+    <label for="username">Nombre de usuario:</label>
+    <input type="text" id="username" name="username">
+    <button onclick="setUserName()">Guardar Nombre de Usuario</button>
+    <br><br>
+    <label for="language">Preferencia de Idioma: </label>
+    <select id="language" name="language">
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+    </select>
+    <button onclick="setLanguagePreference()">Guardar Preferencia de Idioma</button>
+    <br><br>
+    Número de Visitas:
+    <p id="visitCount"></p>
+    <script src="cookies.js"></script>
+</body>
+</html>
+[12:17 p.m., 12/6/2024] Diana: // Función para establecer una cookie
+function setCookie(name, value, days) {
+    let date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    let expires = "expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
+// Función para obtener una cookie
+function getCookie(name) {
+    let nameEQ = name + "=";
+    let ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}
+
+// Función para guardar el nombre de usuario
+function setUserName() {
+    let username = document.getElementById("username").value;
+    setCookie("username", username, 100);
+    alert("Nombre de usuario guardado");
+    displayUserName();
+}
+
+// Función para mostrar un saludo con el nombre de usuario
+function displayUserName() {
+    let username = getCookie("username");
+    if (username != null) {
+        document.getElementById("greeting").innerHTML = "Hola " + username + "!";
+    } else {
+        document.getElementById("greeting").innerHTML = "Hola Invitado!";
+    }
+}
+
+// Función para guardar la preferencia de idioma
+function setLanguagePreference() {
+    let language = document.getElementById("language").value;
+    setCookie("language", language, 365);
+    alert("Preferencia de idioma guardada");
+}
+
+// Función para mostrar el número de visitas
+function displayVisitCount() {
+    let visits = getCookie("visits");
+    if (visits != null) {
+        visits = parseInt(visits) + 1;
+    } else {
+        visits = 1;
+    }
+    setCookie("visits", visits, 365);
+    document.getElementById("visitCount").innerText = "Número de Visitas: " + visits;
+}
+
+// Llamar a la función para mostrar el nombre de usuario al cargar la página
+window.onload = function() {
+    displayUserName();
+    displayVisitCount();
+}
