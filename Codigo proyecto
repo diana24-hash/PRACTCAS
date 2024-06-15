@@ -1,0 +1,182 @@
+PROYECTO 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Apoyo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+        }
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1; /* Coloca el video detrás de todos los demás elementos */
+        }
+        body.dark-theme {
+            background-color: #ffffff; /* Color de fondo del tema oscuro */
+            color: #f0f0f0; /* Color del texto del tema oscuro */
+        }
+        header {
+            background-color: #2c8622;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .button-container button {
+            display: block;
+            width: 300px;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #2c8622;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        .button-container button:hover {
+            background-color: #bceca5;
+        }
+        footer {
+            background-color: #2c8622;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Estilos para la ventana emergente de cookies */
+        .cookie-consent {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .cookie-consent button {
+            background-color: #2c8622;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+        }
+        .cookie-consent button:hover {
+            background-color: #bceca5;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay muted loop>
+        <source src="img/videoadicciones.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header style="display: flex; align-items: center;">
+        <h1 style="margin-right: 20px;">Cuidado de la Salud Mental y Prevención de Adicciones en el CECYTEM</h1>
+        <img src="img/descarga.jpeg" alt="Logo Cecytem" style="width: 100px; height: auto;">
+    </header>
+
+    <div class="container">
+        <section id="subtitulo">
+            <div class="container">
+                <div class="button-container" style="display: flex; justify-content: center; gap: 20px;">
+                    <button onclick="window.location.href='Pagina web Proyecto final (definicion 1)(Adic).html'">Salud mental y manejo de adicciones</button>
+                    <button onclick="window.location.href='Pagina web Proyecto final (definicion 2)(Adic).html'">Control de adicciones y apoyo</button>
+                    <button onclick="window.location.href='Pagina web Proyecto final (examen psicologico)(Adic).html'">Descubre tu Perfil Psicológico</button>
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+
+    <footer>
+        &copy; 2024 Cecytem Coacalco
+    </footer>
+
+    <div class="cookie-consent" id="cookie-consent">
+        <p>Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Al continuar navegando, acepta nuestra política de cookies.</p>
+        <div>
+            <button onclick="acceptCookies()">Aceptar</button>
+            <button onclick="rejectCookies()">Rechazar</button>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            document.getElementById('cookie-consent').style.display = 'none';
+        }
+
+        function rejectCookies() {
+            window.location.href = 'https://www.google.com';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!localStorage.getItem('cookiesAccepted')) {
+                document.getElementById('cookie-consent').style.display = 'flex';
+            }
+        });
+
+        function toggleTheme() {
+            document.body.classList.toggle("dark-theme"); // Cambia la clase del body para cambiar el tema
+        }
+    </script>
+
+</body>
+</html>
